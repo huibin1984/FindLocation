@@ -1,0 +1,4 @@
+platform :ios, :deployment_target => '5.0'
+pod 'Nimbus',		'~> 0.9.3'
+pod 'AFNetworking',	'~> 1.0'
+pod 'SVProgressHUD', '~> 0.8'

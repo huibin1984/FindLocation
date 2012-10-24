@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5700C1791635CD7700879888 /* HBAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5700C1781635CD7700879888 /* HBAnnotation.m */; };
+		570ECDDC16346CF4004F25D7 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570ECDDB16346CF4004F25D7 /* SystemConfiguration.framework */; };
+		570ECDDF16346CFE004F25D7 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 570ECDDE16346CFE004F25D7 /* MobileCoreServices.framework */; };
+		571E945C16341581007C3A5E /* HBMyLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571E945A16341581007C3A5E /* HBMyLocationViewController.m */; };
+		571E945D16341581007C3A5E /* HBMyLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 571E945B16341581007C3A5E /* HBMyLocationViewController.xib */; };
+		571E946116341594007C3A5E /* HBFriendLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571E945F16341594007C3A5E /* HBFriendLocationViewController.m */; };
+		571E946216341594007C3A5E /* HBFriendLocationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 571E946016341594007C3A5E /* HBFriendLocationViewController.xib */; };
+		571E9466163415C0007C3A5E /* HBLocationHistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571E9464163415BF007C3A5E /* HBLocationHistoryViewController.m */; };
+		571E9467163415C0007C3A5E /* HBLocationHistoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 571E9465163415C0007C3A5E /* HBLocationHistoryViewController.xib */; };
+		571E946A1634167F007C3A5E /* HBTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571E94691634167F007C3A5E /* HBTabBarViewController.m */; };
+		571E946E1634172E007C3A5E /* HBLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571E946C1634172E007C3A5E /* HBLoginViewController.m */; };
+		571E946F1634172E007C3A5E /* HBLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 571E946D1634172E007C3A5E /* HBLoginViewController.xib */; };
+		571E947C16341AB6007C3A5E /* login_title@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 571E947B16341AB6007C3A5E /* login_title@2x.jpg */; };
+		571E948A16341BB8007C3A5E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 571E948916341BB8007C3A5E /* Default.png */; };
+		571E948C16341C07007C3A5E /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 571E948B16341C07007C3A5E /* Icon@2x.png */; };
+		571E948E16341F49007C3A5E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 571E948D16341F49007C3A5E /* Icon.png */; };
+		571E94911634211C007C3A5E /* login_title.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 571E94901634211C007C3A5E /* login_title.jpg */; };
+		571E949516343751007C3A5E /* HBRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571E949316343751007C3A5E /* HBRegisterViewController.m */; };
+		571E949616343751007C3A5E /* HBRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 571E949416343751007C3A5E /* HBRegisterViewController.xib */; };
+		571E949F163439A1007C3A5E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 571E949E163439A1007C3A5E /* Default-568h@2x.png */; };
+		571E94A916345124007C3A5E /* HBFindPasswordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 571E94A716345124007C3A5E /* HBFindPasswordViewController.m */; };
+		571E94AA16345124007C3A5E /* HBFindPasswordViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 571E94A816345124007C3A5E /* HBFindPasswordViewController.xib */; };
+		57509402162D5B4600834BA6 /* HBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 57509401162D5B4500834BA6 /* HBUser.m */; };
+		57509403162D5B4600834BA6 /* HBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 57509401162D5B4500834BA6 /* HBUser.m */; };
+		575F459615FED7E5004B04EF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 575F459515FED7E5004B04EF /* CoreLocation.framework */; };
+		5766C64E15F471D900F2FC90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5766C64D15F471D900F2FC90 /* UIKit.framework */; };
+		5766C65015F471D900F2FC90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5766C64F15F471D900F2FC90 /* Foundation.framework */; };
+		5766C65215F471D900F2FC90 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5766C65115F471D900F2FC90 /* CoreGraphics.framework */; };
+		5766C65815F471D900F2FC90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5766C65615F471D900F2FC90 /* InfoPlist.strings */; };
+		5766C65A15F471D900F2FC90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5766C65915F471D900F2FC90 /* main.m */; };
+		5766C65E15F471D900F2FC90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5766C65D15F471D900F2FC90 /* AppDelegate.m */; };
+		5766C66C15F471D900F2FC90 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5766C66B15F471D900F2FC90 /* SenTestingKit.framework */; };
+		5766C66D15F471D900F2FC90 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5766C64D15F471D900F2FC90 /* UIKit.framework */; };
+		5766C66E15F471D900F2FC90 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5766C64F15F471D900F2FC90 /* Foundation.framework */; };
+		5766C67615F471D900F2FC90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5766C67415F471D900F2FC90 /* InfoPlist.strings */; };
+		5766C67915F471D900F2FC90 /* FindLocationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5766C67815F471D900F2FC90 /* FindLocationTests.m */; };
+		5772D09C16346466000CDD6F /* HBHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5772D09B16346466000CDD6F /* HBHTTPClient.m */; };
+		5772D09D16346466000CDD6F /* HBHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5772D09B16346466000CDD6F /* HBHTTPClient.m */; };
+		577BD25C1634EDD300F129CA /* HBRefreshBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 577BD25B1634EDD300F129CA /* HBRefreshBarButtonItem.m */; };
+		579FCF1616351B1F006BC202 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 579FCF1516351B1F006BC202 /* MapKit.framework */; };
+		579FCF1916351BCD006BC202 /* Search.png in Resources */ = {isa = PBXBuildFile; fileRef = 579FCF1716351BCD006BC202 /* Search.png */; };
+		579FCF1A16351BCD006BC202 /* Setting.png in Resources */ = {isa = PBXBuildFile; fileRef = 579FCF1816351BCD006BC202 /* Setting.png */; };
+		579FCF1C16351BEA006BC202 /* MyLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 579FCF1B16351BEA006BC202 /* MyLocation.png */; };
+		579FCF1E16351BFC006BC202 /* FriendLocation.png in Resources */ = {isa = PBXBuildFile; fileRef = 579FCF1D16351BFC006BC202 /* FriendLocation.png */; };
+		579FCF261635313F006BC202 /* HBBaiduMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 579FCF251635313F006BC202 /* HBBaiduMap.m */; };
+		579FCF2D16353CEE006BC202 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 579FCF2C16353CEE006BC202 /* MessageUI.framework */; };
+		579FCF30163540D5006BC202 /* HBLBSServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 579FCF2F163540D5006BC202 /* HBLBSServer.m */; };
+		6A83B7A54D514EEE9402546E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D445BE0390F34BDD8DECB9F6 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5766C66F15F471D900F2FC90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5766C64015F471D900F2FC90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5766C64815F471D900F2FC90;
+			remoteInfo = FindLocation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43ADB7C8AC7247A681E11082 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
+		5700C1771635CD7700879888 /* HBAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBAnnotation.h; sourceTree = "<group>"; };
+		5700C1781635CD7700879888 /* HBAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBAnnotation.m; sourceTree = "<group>"; };
+		570ECDDB16346CF4004F25D7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		570ECDDE16346CFE004F25D7 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		570F27C016345F5E00ED6765 /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
+		571E945916341581007C3A5E /* HBMyLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBMyLocationViewController.h; sourceTree = "<group>"; };
+		571E945A16341581007C3A5E /* HBMyLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBMyLocationViewController.m; sourceTree = "<group>"; };
+		571E945B16341581007C3A5E /* HBMyLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBMyLocationViewController.xib; sourceTree = "<group>"; };
+		571E945E16341594007C3A5E /* HBFriendLocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBFriendLocationViewController.h; sourceTree = "<group>"; };
+		571E945F16341594007C3A5E /* HBFriendLocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBFriendLocationViewController.m; sourceTree = "<group>"; };
+		571E946016341594007C3A5E /* HBFriendLocationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBFriendLocationViewController.xib; sourceTree = "<group>"; };
+		571E9463163415BF007C3A5E /* HBLocationHistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLocationHistoryViewController.h; sourceTree = "<group>"; };
+		571E9464163415BF007C3A5E /* HBLocationHistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLocationHistoryViewController.m; sourceTree = "<group>"; };
+		571E9465163415C0007C3A5E /* HBLocationHistoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBLocationHistoryViewController.xib; sourceTree = "<group>"; };
+		571E94681634167E007C3A5E /* HBTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBTabBarViewController.h; sourceTree = "<group>"; };
+		571E94691634167F007C3A5E /* HBTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBTabBarViewController.m; sourceTree = "<group>"; };
+		571E946B1634172E007C3A5E /* HBLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLoginViewController.h; sourceTree = "<group>"; };
+		571E946C1634172E007C3A5E /* HBLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLoginViewController.m; sourceTree = "<group>"; };
+		571E946D1634172E007C3A5E /* HBLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBLoginViewController.xib; sourceTree = "<group>"; };
+		571E947B16341AB6007C3A5E /* login_title@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "login_title@2x.jpg"; sourceTree = "<group>"; };
+		571E948916341BB8007C3A5E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		571E948B16341C07007C3A5E /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		571E948D16341F49007C3A5E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		571E94901634211C007C3A5E /* login_title.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_title.jpg; sourceTree = "<group>"; };
+		571E949216343750007C3A5E /* HBRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBRegisterViewController.h; sourceTree = "<group>"; };
+		571E949316343751007C3A5E /* HBRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBRegisterViewController.m; sourceTree = "<group>"; };
+		571E949416343751007C3A5E /* HBRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBRegisterViewController.xib; sourceTree = "<group>"; };
+		571E949E163439A1007C3A5E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		571E94A616345124007C3A5E /* HBFindPasswordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBFindPasswordViewController.h; sourceTree = "<group>"; };
+		571E94A716345124007C3A5E /* HBFindPasswordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBFindPasswordViewController.m; sourceTree = "<group>"; };
+		571E94A816345124007C3A5E /* HBFindPasswordViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBFindPasswordViewController.xib; sourceTree = "<group>"; };
+		57509400162D5B4500834BA6 /* HBUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBUser.h; sourceTree = "<group>"; };
+		57509401162D5B4500834BA6 /* HBUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBUser.m; sourceTree = "<group>"; };
+		575F459515FED7E5004B04EF /* CoreLocation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		5766C64915F471D900F2FC90 /* FindLocation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindLocation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5766C64D15F471D900F2FC90 /* UIKit.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5766C64F15F471D900F2FC90 /* Foundation.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5766C65115F471D900F2FC90 /* CoreGraphics.framework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5766C65515F471D900F2FC90 /* FindLocation-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FindLocation-Info.plist"; sourceTree = "<group>"; };
+		5766C65715F471D900F2FC90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5766C65915F471D900F2FC90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5766C65B15F471D900F2FC90 /* FindLocation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FindLocation-Prefix.pch"; sourceTree = "<group>"; };
+		5766C65C15F471D900F2FC90 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5766C65D15F471D900F2FC90 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5766C66A15F471D900F2FC90 /* FindLocationTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindLocationTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5766C66B15F471D900F2FC90 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5766C67315F471D900F2FC90 /* FindLocationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FindLocationTests-Info.plist"; sourceTree = "<group>"; };
+		5766C67515F471D900F2FC90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5766C67715F471D900F2FC90 /* FindLocationTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindLocationTests.h; sourceTree = "<group>"; };
+		5766C67815F471D900F2FC90 /* FindLocationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindLocationTests.m; sourceTree = "<group>"; };
+		5772D09A16346466000CDD6F /* HBHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBHTTPClient.h; sourceTree = "<group>"; };
+		5772D09B16346466000CDD6F /* HBHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBHTTPClient.m; sourceTree = "<group>"; };
+		577BD25A1634EDD300F129CA /* HBRefreshBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBRefreshBarButtonItem.h; sourceTree = "<group>"; };
+		577BD25B1634EDD300F129CA /* HBRefreshBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBRefreshBarButtonItem.m; sourceTree = "<group>"; };
+		579FCF1516351B1F006BC202 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		579FCF1716351BCD006BC202 /* Search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Search.png; sourceTree = "<group>"; };
+		579FCF1816351BCD006BC202 /* Setting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Setting.png; sourceTree = "<group>"; };
+		579FCF1B16351BEA006BC202 /* MyLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MyLocation.png; sourceTree = "<group>"; };
+		579FCF1D16351BFC006BC202 /* FriendLocation.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FriendLocation.png; sourceTree = "<group>"; };
+		579FCF241635313F006BC202 /* HBBaiduMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBBaiduMap.h; sourceTree = "<group>"; };
+		579FCF251635313F006BC202 /* HBBaiduMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBBaiduMap.m; sourceTree = "<group>"; };
+		579FCF2C16353CEE006BC202 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		579FCF2E163540D5006BC202 /* HBLBSServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBLBSServer.h; sourceTree = "<group>"; };
+		579FCF2F163540D5006BC202 /* HBLBSServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBLBSServer.m; sourceTree = "<group>"; };
+		D445BE0390F34BDD8DECB9F6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5766C64615F471D900F2FC90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				579FCF2D16353CEE006BC202 /* MessageUI.framework in Frameworks */,
+				579FCF1616351B1F006BC202 /* MapKit.framework in Frameworks */,
+				570ECDDF16346CFE004F25D7 /* MobileCoreServices.framework in Frameworks */,
+				570ECDDC16346CF4004F25D7 /* SystemConfiguration.framework in Frameworks */,
+				575F459615FED7E5004B04EF /* CoreLocation.framework in Frameworks */,
+				5766C64E15F471D900F2FC90 /* UIKit.framework in Frameworks */,
+				5766C65015F471D900F2FC90 /* Foundation.framework in Frameworks */,
+				5766C65215F471D900F2FC90 /* CoreGraphics.framework in Frameworks */,
+				6A83B7A54D514EEE9402546E /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5766C66615F471D900F2FC90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5766C66C15F471D900F2FC90 /* SenTestingKit.framework in Frameworks */,
+				5766C66D15F471D900F2FC90 /* UIKit.framework in Frameworks */,
+				5766C66E15F471D900F2FC90 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		571E948F16341F64007C3A5E /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				579FCF1D16351BFC006BC202 /* FriendLocation.png */,
+				579FCF1B16351BEA006BC202 /* MyLocation.png */,
+				579FCF1716351BCD006BC202 /* Search.png */,
+				579FCF1816351BCD006BC202 /* Setting.png */,
+				571E94901634211C007C3A5E /* login_title.jpg */,
+				571E947B16341AB6007C3A5E /* login_title@2x.jpg */,
+				571E948D16341F49007C3A5E /* Icon.png */,
+				571E948B16341C07007C3A5E /* Icon@2x.png */,
+				571E948916341BB8007C3A5E /* Default.png */,
+				571E949E163439A1007C3A5E /* Default-568h@2x.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		571E94A51634510B007C3A5E /* UserController */ = {
+			isa = PBXGroup;
+			children = (
+				571E946B1634172E007C3A5E /* HBLoginViewController.h */,
+				571E946C1634172E007C3A5E /* HBLoginViewController.m */,
+				571E946D1634172E007C3A5E /* HBLoginViewController.xib */,
+				571E949216343750007C3A5E /* HBRegisterViewController.h */,
+				571E949316343751007C3A5E /* HBRegisterViewController.m */,
+				571E949416343751007C3A5E /* HBRegisterViewController.xib */,
+				571E94A616345124007C3A5E /* HBFindPasswordViewController.h */,
+				571E94A716345124007C3A5E /* HBFindPasswordViewController.m */,
+				571E94A816345124007C3A5E /* HBFindPasswordViewController.xib */,
+			);
+			name = UserController;
+			sourceTree = "<group>";
+		};
+		57509405162D5B4900834BA6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5772D09A16346466000CDD6F /* HBHTTPClient.h */,
+				5772D09B16346466000CDD6F /* HBHTTPClient.m */,
+				57509400162D5B4500834BA6 /* HBUser.h */,
+				57509401162D5B4500834BA6 /* HBUser.m */,
+				579FCF241635313F006BC202 /* HBBaiduMap.h */,
+				579FCF251635313F006BC202 /* HBBaiduMap.m */,
+				579FCF2E163540D5006BC202 /* HBLBSServer.h */,
+				579FCF2F163540D5006BC202 /* HBLBSServer.m */,
+				5700C1771635CD7700879888 /* HBAnnotation.h */,
+				5700C1781635CD7700879888 /* HBAnnotation.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		5766C63E15F471D900F2FC90 = {
+			isa = PBXGroup;
+			children = (
+				5766C65315F471D900F2FC90 /* FindLocation */,
+				5766C67115F471D900F2FC90 /* FindLocationTests */,
+				5766C64C15F471D900F2FC90 /* Frameworks */,
+				5766C64A15F471D900F2FC90 /* Products */,
+				43ADB7C8AC7247A681E11082 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		5766C64A15F471D900F2FC90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5766C64915F471D900F2FC90 /* FindLocation.app */,
+				5766C66A15F471D900F2FC90 /* FindLocationTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5766C64C15F471D900F2FC90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				579FCF2C16353CEE006BC202 /* MessageUI.framework */,
+				579FCF1516351B1F006BC202 /* MapKit.framework */,
+				570ECDDE16346CFE004F25D7 /* MobileCoreServices.framework */,
+				570ECDDB16346CF4004F25D7 /* SystemConfiguration.framework */,
+				575F459515FED7E5004B04EF /* CoreLocation.framework */,
+				5766C64D15F471D900F2FC90 /* UIKit.framework */,
+				5766C64F15F471D900F2FC90 /* Foundation.framework */,
+				5766C65115F471D900F2FC90 /* CoreGraphics.framework */,
+				5766C66B15F471D900F2FC90 /* SenTestingKit.framework */,
+				D445BE0390F34BDD8DECB9F6 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5766C65315F471D900F2FC90 /* FindLocation */ = {
+			isa = PBXGroup;
+			children = (
+				5766C65C15F471D900F2FC90 /* AppDelegate.h */,
+				5766C65D15F471D900F2FC90 /* AppDelegate.m */,
+				571E94681634167E007C3A5E /* HBTabBarViewController.h */,
+				571E94691634167F007C3A5E /* HBTabBarViewController.m */,
+				579FCF131635171F006BC202 /* LocationController */,
+				571E94A51634510B007C3A5E /* UserController */,
+				57509405162D5B4900834BA6 /* Model */,
+				577BD25E1634EDD700F129CA /* CustomView */,
+				5766C65415F471D900F2FC90 /* Supporting Files */,
+			);
+			path = FindLocation;
+			sourceTree = "<group>";
+		};
+		5766C65415F471D900F2FC90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5766C65515F471D900F2FC90 /* FindLocation-Info.plist */,
+				5766C65615F471D900F2FC90 /* InfoPlist.strings */,
+				5766C65915F471D900F2FC90 /* main.m */,
+				5766C65B15F471D900F2FC90 /* FindLocation-Prefix.pch */,
+				570F27C016345F5E00ED6765 /* AppConstants.h */,
+				571E948F16341F64007C3A5E /* Image */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5766C67115F471D900F2FC90 /* FindLocationTests */ = {
+			isa = PBXGroup;
+			children = (
+				5766C67715F471D900F2FC90 /* FindLocationTests.h */,
+				5766C67815F471D900F2FC90 /* FindLocationTests.m */,
+				5766C67215F471D900F2FC90 /* Supporting Files */,
+			);
+			path = FindLocationTests;
+			sourceTree = "<group>";
+		};
+		5766C67215F471D900F2FC90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5766C67315F471D900F2FC90 /* FindLocationTests-Info.plist */,
+				5766C67415F471D900F2FC90 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		577BD25E1634EDD700F129CA /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				577BD25A1634EDD300F129CA /* HBRefreshBarButtonItem.h */,
+				577BD25B1634EDD300F129CA /* HBRefreshBarButtonItem.m */,
+			);
+			name = CustomView;
+			sourceTree = "<group>";
+		};
+		579FCF131635171F006BC202 /* LocationController */ = {
+			isa = PBXGroup;
+			children = (
+				571E945916341581007C3A5E /* HBMyLocationViewController.h */,
+				571E945A16341581007C3A5E /* HBMyLocationViewController.m */,
+				571E945B16341581007C3A5E /* HBMyLocationViewController.xib */,
+				571E945E16341594007C3A5E /* HBFriendLocationViewController.h */,
+				571E945F16341594007C3A5E /* HBFriendLocationViewController.m */,
+				571E946016341594007C3A5E /* HBFriendLocationViewController.xib */,
+				571E9463163415BF007C3A5E /* HBLocationHistoryViewController.h */,
+				571E9464163415BF007C3A5E /* HBLocationHistoryViewController.m */,
+				571E9465163415C0007C3A5E /* HBLocationHistoryViewController.xib */,
+			);
+			name = LocationController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5766C64815F471D900F2FC90 /* FindLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5766C67C15F471D900F2FC90 /* Build configuration list for PBXNativeTarget "FindLocation" */;
+			buildPhases = (
+				5766C64515F471D900F2FC90 /* Sources */,
+				5766C64615F471D900F2FC90 /* Frameworks */,
+				5766C64715F471D900F2FC90 /* Resources */,
+				D5CEEC7B641E4B56BA5AC5FD /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindLocation;
+			productName = FindLocation;
+			productReference = 5766C64915F471D900F2FC90 /* FindLocation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5766C66915F471D900F2FC90 /* FindLocationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5766C67F15F471D900F2FC90 /* Build configuration list for PBXNativeTarget "FindLocationTests" */;
+			buildPhases = (
+				5766C66515F471D900F2FC90 /* Sources */,
+				5766C66615F471D900F2FC90 /* Frameworks */,
+				5766C66715F471D900F2FC90 /* Resources */,
+				5766C66815F471D900F2FC90 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5766C67015F471D900F2FC90 /* PBXTargetDependency */,
+			);
+			name = FindLocationTests;
+			productName = FindLocationTests;
+			productReference = 5766C66A15F471D900F2FC90 /* FindLocationTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5766C64015F471D900F2FC90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Âê¥ ËæâÊñå";
+			};
+			buildConfigurationList = 5766C64315F471D900F2FC90 /* Build configuration list for PBXProject "FindLocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5766C63E15F471D900F2FC90;
+			productRefGroup = 5766C64A15F471D900F2FC90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5766C64815F471D900F2FC90 /* FindLocation */,
+				5766C66915F471D900F2FC90 /* FindLocationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5766C64715F471D900F2FC90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5766C65815F471D900F2FC90 /* InfoPlist.strings in Resources */,
+				571E945D16341581007C3A5E /* HBMyLocationViewController.xib in Resources */,
+				571E946216341594007C3A5E /* HBFriendLocationViewController.xib in Resources */,
+				571E9467163415C0007C3A5E /* HBLocationHistoryViewController.xib in Resources */,
+				571E946F1634172E007C3A5E /* HBLoginViewController.xib in Resources */,
+				571E947C16341AB6007C3A5E /* login_title@2x.jpg in Resources */,
+				571E948A16341BB8007C3A5E /* Default.png in Resources */,
+				571E948C16341C07007C3A5E /* Icon@2x.png in Resources */,
+				571E948E16341F49007C3A5E /* Icon.png in Resources */,
+				571E94911634211C007C3A5E /* login_title.jpg in Resources */,
+				571E949616343751007C3A5E /* HBRegisterViewController.xib in Resources */,
+				571E949F163439A1007C3A5E /* Default-568h@2x.png in Resources */,
+				571E94AA16345124007C3A5E /* HBFindPasswordViewController.xib in Resources */,
+				579FCF1916351BCD006BC202 /* Search.png in Resources */,
+				579FCF1A16351BCD006BC202 /* Setting.png in Resources */,
+				579FCF1C16351BEA006BC202 /* MyLocation.png in Resources */,
+				579FCF1E16351BFC006BC202 /* FriendLocation.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5766C66715F471D900F2FC90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5766C67615F471D900F2FC90 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5766C66815F471D900F2FC90 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+		D5CEEC7B641E4B56BA5AC5FD /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5766C64515F471D900F2FC90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5766C65A15F471D900F2FC90 /* main.m in Sources */,
+				5766C65E15F471D900F2FC90 /* AppDelegate.m in Sources */,
+				57509402162D5B4600834BA6 /* HBUser.m in Sources */,
+				571E945C16341581007C3A5E /* HBMyLocationViewController.m in Sources */,
+				571E946116341594007C3A5E /* HBFriendLocationViewController.m in Sources */,
+				571E9466163415C0007C3A5E /* HBLocationHistoryViewController.m in Sources */,
+				571E946A1634167F007C3A5E /* HBTabBarViewController.m in Sources */,
+				571E946E1634172E007C3A5E /* HBLoginViewController.m in Sources */,
+				571E949516343751007C3A5E /* HBRegisterViewController.m in Sources */,
+				571E94A916345124007C3A5E /* HBFindPasswordViewController.m in Sources */,
+				5772D09C16346466000CDD6F /* HBHTTPClient.m in Sources */,
+				577BD25C1634EDD300F129CA /* HBRefreshBarButtonItem.m in Sources */,
+				579FCF261635313F006BC202 /* HBBaiduMap.m in Sources */,
+				579FCF30163540D5006BC202 /* HBLBSServer.m in Sources */,
+				5700C1791635CD7700879888 /* HBAnnotation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5766C66515F471D900F2FC90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5766C67915F471D900F2FC90 /* FindLocationTests.m in Sources */,
+				57509403162D5B4600834BA6 /* HBUser.m in Sources */,
+				5772D09D16346466000CDD6F /* HBHTTPClient.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5766C67015F471D900F2FC90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5766C64815F471D900F2FC90 /* FindLocation */;
+			targetProxy = 5766C66F15F471D900F2FC90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5766C65615F471D900F2FC90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5766C65715F471D900F2FC90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5766C67415F471D900F2FC90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5766C67515F471D900F2FC90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5766C67A15F471D900F2FC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5766C67B15F471D900F2FC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5766C67D15F471D900F2FC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43ADB7C8AC7247A681E11082 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FindLocation/FindLocation-Prefix.pch";
+				INFOPLIST_FILE = "FindLocation/FindLocation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5766C67E15F471D900F2FC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43ADB7C8AC7247A681E11082 /* Pods.xcconfig */;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FindLocation/FindLocation-Prefix.pch";
+				INFOPLIST_FILE = "FindLocation/FindLocation-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5766C68015F471D900F2FC90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FindLocation.app/FindLocation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FindLocation/FindLocation-Prefix.pch";
+				INFOPLIST_FILE = "FindLocationTests/FindLocationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5766C68115F471D900F2FC90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FindLocation.app/FindLocation";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FindLocation/FindLocation-Prefix.pch";
+				INFOPLIST_FILE = "FindLocationTests/FindLocationTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5766C64315F471D900F2FC90 /* Build configuration list for PBXProject "FindLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5766C67A15F471D900F2FC90 /* Debug */,
+				5766C67B15F471D900F2FC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5766C67C15F471D900F2FC90 /* Build configuration list for PBXNativeTarget "FindLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5766C67D15F471D900F2FC90 /* Debug */,
+				5766C67E15F471D900F2FC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5766C67F15F471D900F2FC90 /* Build configuration list for PBXNativeTarget "FindLocationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5766C68015F471D900F2FC90 /* Debug */,
+				5766C68115F471D900F2FC90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5766C64015F471D900F2FC90 /* Project object */;
+}
